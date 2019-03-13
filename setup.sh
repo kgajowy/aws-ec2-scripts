@@ -3,7 +3,7 @@
 { # this ensures the entire script is downloaded #
 
 sudo apt update -y
-sudo apt upgrade -y
+# sudo apt upgrade -y
 sudo apt-get update -y
 sudo apt-get install build-essential libssl-dev -y
 curl https://raw.githubusercontent.com/creationix/nvm/v0.33.3/install.sh | bash
